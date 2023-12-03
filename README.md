@@ -26,11 +26,10 @@ Hello World: http://localhost:5000/
 Health: http://localhost:5000/health.
 
 
-Task 2
+Task 3
 ===========
 
 Documentation:
-Include the following documentation in your repository:
 
 Deployment Instructions:
 
@@ -44,11 +43,11 @@ How to access the application using the external IP.
 High Availability Considerations:
 
 Explanation of the chosen number of replicas in the deployment YAML (replicas: 3).
-Any additional high availability strategies implemented.
+Availability strategies implemented.
 Automation:
 Optionally, you can automate the deployment process using CI/CD tools such as GitHub Actions or Jenkins. Create workflows to build the Docker image, push it to a container registry, and apply Kubernetes manifests to the cluster.
 
 Include the CI/CD configuration files in the .github/workflows directory or the appropriate location for your CI/CD tool.
 
-Provide the Application Manifests Inside the Repository:
-Ensure that the deployment.yaml and service.yaml files are committed to your repository under a directory like k8s or deploy.
+Application Manifests Inside the Repository has been provided:
+deployment.yaml and service.yaml files are committed to my  repository under main.
